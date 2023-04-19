@@ -1,0 +1,46 @@
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.product-item {
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
+}
+
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.product__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
+}
+
+.pagination {
+    text-align : center;
+    margin-top : 2rem;
+}
+
+.pagination a{
+    text-decoration : none;
+    color : #00695c;
+    border : solid 1px #00695c;
+    padding : 4px;
+    margin : 0;
+}
+
+.pagination a:hover,
+.pagination a.active{
+color : white;
+background-color: #00695c;
+}
